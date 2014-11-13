@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'ScrollKeyboardController', :exclusive => true do
+  pod "ScrollKeyboardController", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "ScrollKeyboardController", :path => "../"
+
+  
+end
