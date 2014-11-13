@@ -1,0 +1,14 @@
+PODS:
+  - ScrollKeyboardController (0.1.0)
+
+DEPENDENCIES:
+  - ScrollKeyboardController (from `../`)
+
+EXTERNAL SOURCES:
+  ScrollKeyboardController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ScrollKeyboardController: 8264a576fdb9885e7af69223151461e9a6310840
+
+COCOAPODS: 0.34.1

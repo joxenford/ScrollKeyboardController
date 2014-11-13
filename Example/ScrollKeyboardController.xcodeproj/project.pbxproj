@@ -10,6 +10,69 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>0C3C24AC17C06A1727DDFC37</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>0FC044E63FB013BAE5CD4165</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Tests.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>16D9FEC6334ADB099C29E31C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ScrollKeyboardController/Pods-ScrollKeyboardController-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
 		<key>278489CDEF4C8962CD0E9A7B</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -23,6 +86,50 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>2FCD2F1779F1F952F40F73AD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Tests.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>527B69D3FD97AC0076C2560D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>AC7450BA66B3509F86408E56</string>
+				<string>EC4FB2F816BA72E3821FD4F9</string>
+				<string>2FCD2F1779F1F952F40F73AD</string>
+				<string>0FC044E63FB013BAE5CD4165</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5E6ABE4BC998543384E1A5FB</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-Tests.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
 		<key>6003F581195388D10070C39A</key>
 		<dict>
 			<key>children</key>
@@ -32,6 +139,7 @@
 				<string>6003F5B5195388D20070C39A</string>
 				<string>6003F58C195388D20070C39A</string>
 				<string>6003F58B195388D20070C39A</string>
+				<string>527B69D3FD97AC0076C2560D</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -126,6 +234,7 @@
 				<string>6003F590195388D20070C39A</string>
 				<string>6003F592195388D20070C39A</string>
 				<string>6003F58E195388D20070C39A</string>
+				<string>9550B1F9C7AA7BB75A32B0D9</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -154,9 +263,11 @@
 			<string>6003F5BF195388D20070C39A</string>
 			<key>buildPhases</key>
 			<array>
+				<string>AAE2DC91C12F06BE312259E9</string>
 				<string>6003F586195388D20070C39A</string>
 				<string>6003F587195388D20070C39A</string>
 				<string>6003F588195388D20070C39A</string>
+				<string>16D9FEC6334ADB099C29E31C</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -208,6 +319,8 @@
 				<string>6003F58F195388D20070C39A</string>
 				<string>6003F591195388D20070C39A</string>
 				<string>6003F5AF195388D20070C39A</string>
+				<string>C3A157B52A248A8C22057927</string>
+				<string>5E6ABE4BC998543384E1A5FB</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -549,6 +662,7 @@
 				<string>6003F5B0195388D20070C39A</string>
 				<string>6003F5B2195388D20070C39A</string>
 				<string>6003F5B1195388D20070C39A</string>
+				<string>780AB38FEB86871DB66A4ABF</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -574,9 +688,11 @@
 			<string>6003F5C2195388D20070C39A</string>
 			<key>buildPhases</key>
 			<array>
+				<string>8177C178840FCCCE1305D581</string>
 				<string>6003F5AA195388D20070C39A</string>
 				<string>6003F5AB195388D20070C39A</string>
 				<string>6003F5AC195388D20070C39A</string>
+				<string>0C3C24AC17C06A1727DDFC37</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -908,6 +1024,8 @@
 		</dict>
 		<key>6003F5C0195388D20070C39A</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>AC7450BA66B3509F86408E56</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
@@ -932,6 +1050,8 @@
 		</dict>
 		<key>6003F5C1195388D20070C39A</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>EC4FB2F816BA72E3821FD4F9</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
@@ -970,6 +1090,8 @@
 		</dict>
 		<key>6003F5C3195388D20070C39A</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>2FCD2F1779F1F952F40F73AD</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>BUNDLE_LOADER</key>
@@ -1005,6 +1127,8 @@
 		</dict>
 		<key>6003F5C4195388D20070C39A</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>0FC044E63FB013BAE5CD4165</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>BUNDLE_LOADER</key>
@@ -1059,6 +1183,13 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>780AB38FEB86871DB66A4ABF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5E6ABE4BC998543384E1A5FB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>80BD66A568D681492D92CF99</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1072,6 +1203,36 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>8177C178840FCCCE1305D581</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
 		<key>8AB0914C270BADDD7B8AA1F5</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1082,6 +1243,86 @@
 			<string>ScrollKeyboardController.podspec</string>
 			<key>path</key>
 			<string>../ScrollKeyboardController.podspec</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9550B1F9C7AA7BB75A32B0D9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C3A157B52A248A8C22057927</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>AAE2DC91C12F06BE312259E9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>AC7450BA66B3509F86408E56</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-ScrollKeyboardController.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-ScrollKeyboardController/Pods-ScrollKeyboardController.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C3A157B52A248A8C22057927</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-ScrollKeyboardController.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>EC4FB2F816BA72E3821FD4F9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-ScrollKeyboardController.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-ScrollKeyboardController/Pods-ScrollKeyboardController.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
